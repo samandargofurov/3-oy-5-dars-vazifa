@@ -1,1 +1,133 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "IBM Plex Mono";
+  font-size: 16px;
+  height: 100vh;
+  background: #6DFC56;
+  background-repeat: no-repeat;
+}
+
+.container {
+  padding-top: 30px;
+  width: 100%;
+  max-width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-container {
+  display: flex;
+  gap: 450px;
+}
+.header-container .link {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.logo a {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  color: #13390D;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.nav ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+}
+
+li a {
+  color: #13390D;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  transition: all 0.5s;
+}
+li a:hover {
+  color: #fff;
+}
+
+.link input {
+  padding: 12px 22px;
+  background: transparent;
+  cursor: pointer;
+  color: #13390D;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  transition: all 0.5s ease;
+  border-radius: 4px;
+  border: 1px solid #13390D;
+}
+.link input:hover {
+  background: #0C3720;
+  border: 1px solid #0C3720;
+  color: #fff;
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+}
+.hero-container .hero-left-text {
+  margin-top: 28px;
+}
+.hero-container .hero-left-text .title {
+  width: 500px;
+  color: #13390D;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.hero-container .hero-left-text .desc {
+  width: 530px;
+  color: rgba(19, 57, 13, 0.7);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 60px;
+}
+
+.hero-left-text .button input {
+  background: transparent;
+  border: none;
+  color: #FFF;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
+  align-items: center;
+  gap: 10px;
+  border-radius: 3px;
+  background: #06331B;
+  width: 200px;
+  padding: 20px 45px;
+}
+.hero-left-text .button input:hover {
+  background: #00642f;
+}
+
+.hero-right-img img {
+  margin-top: -56px;
+}/*# sourceMappingURL=style.css.map */
